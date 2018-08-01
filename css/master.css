@@ -1,0 +1,39 @@
+body{
+	background: linear-gradient(to left, #73C8A9 , #373B44);
+
+}
+
+
+.middle{
+	padding-top: 10%;
+	/* background: #fff; */
+	width: 25%;
+	margin: 0 auto;
+}
+#header{
+	background: #000;
+	color: #fff;
+	text-transform: uppercase;
+}
+.list-group-item{
+	padding-left: 0;
+	position: relative;
+}
+.fa-trash{
+	color: #fff;
+	position: absolute;
+	top: 0;
+	left:-40px;
+	width: 40px;
+	background: #e74c3c;
+	opacity: 0;
+	transition: 0.2s linear;
+	height: 48px;
+	padding: 15px;
+	overflow: hidden;
+}
+.list-group-item:hover .fa-trash{
+	transform: translateX(39px);
+	opacity: 1;
+	overflow: hidden;
+}
